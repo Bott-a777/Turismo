@@ -1,0 +1,59 @@
+body{
+    background-color: aquamarine;
+}
+
+.flexp{
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100 vh;
+}
+
+
+.flexcontainer{
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center ;
+    height: 50px; ;
+    background-color:wheat ;
+
+}
+
+
+
+
+.flexmain{
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center ;
+    background-color:rgb(0, 255, 85) ; 
+}
+
+
+
+.imagenes-main{
+    height: 200px;
+    size: 200px;
+}
+
+.Imagennacionales{
+    height: 200px;
+    width: 200;
+}
+
+.gridgaleria{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 400px 400px;
+    gap: 10px;
+}
+
+.imagenesgaleria{
+    width: 400px;
+    height: 400px;
+
+
+}
